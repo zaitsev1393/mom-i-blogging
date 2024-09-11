@@ -90,12 +90,12 @@ html {
 html,
 body {
 	height: 100%;
+	/* font-family: 'Roboto', sans-serif; */
 }
 
 html {
 	color: var(--text-1);
 	accent-color: var(--link);
-	background-image: var(--background);
 	background-attachment: fixed;
 }
 
@@ -131,4 +131,10 @@ li {
 .surface-4 {
 	background-color: var(--surface-4);
 	color: var(--text-1);
+}
+
+.hr {
+	width: 300px;
+	border-bottom: 1px solid white;
+	padding: 8px;
 }

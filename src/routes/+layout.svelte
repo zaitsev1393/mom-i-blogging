@@ -3,8 +3,7 @@
 	import 'open-props/style';
 	import 'open-props/normalize';
 	import 'open-props/buttons';
-	// import '../app.css';
-	import '../md.css';
+	import '../styles/facade.css';
 </script>
 
 <Contacts />
@@ -23,7 +22,6 @@
 </main>
 
 <style>
-	@import './app.css';
 	main {
 		height: 100vh;
 		width: 50vw;

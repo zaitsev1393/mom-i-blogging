@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/netlify-adapter';
+import adapter from '@sveltejs/adapter-netlify';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { createHighlighter } from 'shiki';
 

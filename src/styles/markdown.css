@@ -20,8 +20,14 @@
 }
 
 .prose pre {
+	font-family: 'Fira Code', monospace;
 	max-inline-size: 100%;
 	padding: 1rem;
 	border-radius: 8px;
 	tab-size: 2;
+	overflow-x: auto;
+}
+
+.line {
+	font-family: 'Fira Code', monospace;
 }
