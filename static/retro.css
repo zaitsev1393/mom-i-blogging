@@ -1,8 +1,3 @@
-pre,
-code {
-	font-family: Menlo, Monaco, 'Courier New', monospace;
-}
-
 pre {
 	padding: 0.5rem;
 	line-height: 1.25;
@@ -107,7 +102,6 @@ body {
 p,
 .retro-p {
 	font-size: 1rem;
-	margin-bottom: 1.3rem;
 }
 
 h1,

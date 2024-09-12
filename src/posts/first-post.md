@@ -1,5 +1,5 @@
 ---
-title: First post
+title: This is the Hello world post for this blog.
 description: First post.
 date: '2023-4-14'
 categories:
@@ -7,8 +7,6 @@ categories:
   - svelte
 published: true
 ---
-
-## Markdown
 
 Hey friends! 👋
 

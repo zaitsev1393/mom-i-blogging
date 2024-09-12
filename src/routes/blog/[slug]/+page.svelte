@@ -10,12 +10,10 @@
 </svelte:head>
 
 <article>
-	<!-- Title -->
-	<hgroup>
-		<h1>{data.meta.title}</h1>
+	<div class="title">
+		<h4>{data.meta.title}</h4>
 		<p>Published at {data.meta.date}</p>
-	</hgroup>
-
+	</div>
 	<!-- Tags -->
 	<!-- <div class="tags">
 		{#each data.meta.categories as category}
@@ -30,4 +28,7 @@
 </article>
 
 <style>
+	.title {
+		margin-top: 16px;
+	}
 </style>
