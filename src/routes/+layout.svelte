@@ -12,7 +12,7 @@
 	<h3>glib zaycev, swe</h3>
 
 	<header>
-		<a href="/blog">Blog</a>
+		<a href="/">Blog</a>
 		<a href="/about">About</a>
 		<a href="/portfolio">Portoflio</a>
 	</header>
@@ -25,7 +25,9 @@
 	main {
 		height: 100vh;
 		width: 50vw;
-		margin: 0 auto;
+		padding: 4rem;
+		background: #222;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	}
 	header {
 		display: flex;
