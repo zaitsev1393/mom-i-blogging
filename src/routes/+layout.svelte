@@ -3,7 +3,8 @@
 	import 'open-props/style';
 	import 'open-props/normalize';
 	import 'open-props/buttons';
-	import '../styles/facade.css';
+	import '../styles/facade.scss';
+	import '../styles/colors.scss';
 </script>
 
 <Contacts />
@@ -26,6 +27,7 @@
 		height: 100vh;
 		width: 50vw;
 		padding: 4rem;
+		margin: 0 auto;
 		background: #222;
 		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	}

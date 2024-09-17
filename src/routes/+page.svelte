@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Date from './..//shared/date/date.svelte';
+	import Date from './../shared/date/date.svelte';
 	export let data;
 </script>
 
