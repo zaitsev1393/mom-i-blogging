@@ -1,17 +1,7 @@
 @import './fonts.scss';
 @import './markdown.scss';
-
-:root {
-	--bg-section-height: 24px;
-}
-
-body {
-	background: linear-gradient(
-		to bottom,
-		var(--verdigris) 0 var(--bg-section-height),
-		var(--tangerine) var(--bg-section-height) calc(var(--bg-section-height) * 2),
-		var(--cinnabar) calc(var(--bg-section-height) * 2) calc(var(--bg-section-height) * 3),
-		var(--cordovan) calc(var(--bg-section-height) * 3) calc(var(--bg-section-height) * 4),
-		var(--prussian-blue) calc(var(--bg-section-height) * 4)
-	);
-}
+@import './global.scss';
+@import './layout.scss';
+@tailwind utilities;
+@tailwind components;
+@tailwind base;

@@ -1,0 +1,16 @@
+html {
+	background-color: white;
+	color: black;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	@apply text-black;
+	&:hover {
+		@apply underline;
+	}
+}

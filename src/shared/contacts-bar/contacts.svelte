@@ -15,21 +15,20 @@
 	];
 </script>
 
-<div class="networks">
+<div class="flex gap-2 duration-300">
 	{#each socialNetworks as { icon, url }}
 		<a href={url} target="_blank">
-			<i class="fa-brands fa-{icon} fa-xl"></i>
+			<i class="fa-brands fa-{icon} fa-2xl"></i>
 		</a>
 	{/each}
 </div>
 
 <style>
-	.networks {
-		position: fixed;
-		right: 24px;
-		top: 24px;
-		display: flex;
-		gap: 12px;
-		padding: 8px;
+	a {
+		color: var(--cordovan);
+		transition: 0.3s;
+		&:hover {
+			transform: scale(1.1);
+		}
 	}
 </style>
