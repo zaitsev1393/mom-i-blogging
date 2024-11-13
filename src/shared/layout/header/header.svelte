@@ -9,13 +9,16 @@
 		</div>
 	</div>
 </header>
-<div class="m-4 w-full text-center">
+<div class="links roboto-light">
 	<a href="/">Blog</a>
 	|
 	<a href="/about">About</a>
 </div>
 
 <style lang="scss">
+	.links {
+		@apply my-4 w-full text-center text-4xl;
+	}
 	header {
 		@apply p-4;
 		--bg-section-height: 24px;

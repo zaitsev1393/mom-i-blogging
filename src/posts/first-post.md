@@ -8,7 +8,11 @@ categories:
 published: true
 ---
 
+<pre>
 Hey friends! 👋
+
+Here we go
+</pre>
 
 ```ts
 function greet(name: string) {

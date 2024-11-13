@@ -10,8 +10,12 @@
 
 <article>
 	<div class="title">
-		<h4>{data.meta.title}</h4>
-		<p>Published at {data.meta.date}</p>
+		<div class="text-gray-600 text-md text-center roboto-light-italic">
+			Published at {data.meta.date}
+		</div>
+		<hr class="my-4" />
+		<div class="text-6xl text-center roboto-light">{data.meta.title}</div>
+		<hr class="my-4" />
 	</div>
 	<!-- Tags -->
 	<!-- <div class="tags">
@@ -21,7 +25,7 @@
 	</div> -->
 
 	<!-- Post -->
-	<div class="prose">
+	<div class="prose mt-16">
 		<svelte:component this={data.content} />
 	</div>
 </article>
